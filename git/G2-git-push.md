@@ -1,20 +1,18 @@
-# Git Push (sync with origin)
-
-## Overview
+# git-push
 
 Push current branch to origin and sync with remote updates.
 
-## Steps
+1. **Fetch** - `git fetch origin`
+2. **Rebase (optional)** - `git rebase origin/main` (if not on main)
+3. **Push** - `git push -u origin HEAD`
+4. **If rejected** - `git pull --rebase && git push`
+5. **Force push (if needed)** - Ask user first, then `git push --force-with-lease`
 
-1. **Fetch and rebase onto latest main (optional but recommended)**
-    - `git fetch origin`
-    - `git rebase origin/main || git rebase --abort` (if not on main, rebase your feature branch onto latest main)
-2. **Push current branch**
-    - `git push -u origin HEAD`
-3. **If push rejected due to remote updates**
-    - Rebase and push: `git pull --rebase && git push`
+Focus on:
+- Linear history (prefer rebase over merge)
+- Syncing before push to avoid conflicts
+- Safe force push (`--force-with-lease`)
 
-## Notes
-
-- Prefer `rebase` over `merge` for a linear history.
-- If you need to force push after a rebase: you need to ask the user if they want to force push: `git push --force-with-lease`.
+Notes:
+- Always ask before force pushing
+- Use `--force-with-lease` not `--force`
