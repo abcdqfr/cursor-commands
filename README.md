@@ -191,7 +191,7 @@ cursor-commands roadmap-pp --input /tmp/annotations.txt
 
 ## Current Arsenal Summary
 
-### Existing Commands (7 total)
+### Existing Commands
 
 1. **burn-down-roadmap.md** - Project Management & Task Execution
    - Purpose: Convert roadmap checkpoints into actionable todos
