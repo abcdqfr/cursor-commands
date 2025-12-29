@@ -6,83 +6,99 @@ Complete documentation for the Cursor command arsenal system.
 
 # Command Quick Reference
 
-Type `/` in Cursor to access any command instantly.
+Type `/` in Cursor to access any command instantly. All commands are indexed A1-Z9 for easy reference.
 
-## Code quality & maintenance
+## A - Architect (3 commands)
 
-- `lint-fix.md` – Automatically analyze and fix linting issues in the current file
-- `lint-suite.md` – Run project linters, apply fixes, and ensure codebase meets formatting requirements
-- `refactor-code.md` – Improve code quality while maintaining functionality
-- `optimize-performance.md` – Analyze and optimize code performance
-- `add-error-handling.md` – Implement comprehensive error handling across the change set
-- `deslop.md` – Clean up AI-generated code by removing unnecessary complexity and verbosity
-- `clarify-task.md` – Break down ambiguous tasks into clear, actionable steps
+- **A1** `A1-architect.md` – Transform project ideas into well-structured implementations
+- **A2** `A2-diagrams.md` – Generate Mermaid diagrams (flowcharts, sequence, class, ER, state diagrams)
+- **A3** `A3-refactor-code.md` – Improve code quality while maintaining functionality
 
-## Review & collaboration
+## B - Behavior (3 commands)
 
-- `code-review.md` – Comprehensive review checklist with structured steps and focus areas
-- `address-github-pr-comments.md` – Process reviewer feedback and craft thoughtful responses
-- `light-review-existing-diffs.md` – Quick pass to highlight risky diffs and cleanup items
-- `create-pr.md` – Prepare a well-structured pull request with validation checklist
-- `generate-pr-description.md` – Draft detailed pull-request descriptions automatically
-- `round-table.md` – Comprehensive synthesis of all contexts into unified debrief
+- **B1** `B1-behavior.md` – Maintain high code quality and professional standards
+- **B2** `B2-add-error-handling.md` – Implement comprehensive error handling across the change set
+- **B3** `B3-optimize-performance.md` – Analyze and optimize code performance
 
-## Testing & reliability
+## C - Code-Quality (6 commands)
 
-- `run-all-tests-and-fix.md` – Execute the full suite, triage failures, and confirm fixes
-- `write-unit-tests.md` – Generate focused unit tests with proper coverage
-- `debug-issue.md` – Step-by-step debugging workflow for isolating defects
-- `fix-compile-errors.md` – Diagnose and resolve compilation failures quickly
-- `docker-logs.md` – Tail and monitor Docker container logs for debugging
+- **C1** `C1-lint-fix.md` – Automatically analyze and fix linting issues in the current file
+- **C2** `C2-lint-suite.md` – Run project linters, apply fixes, and ensure codebase meets formatting requirements
+- **C3** `C3-code-review.md` – Comprehensive review checklist with structured steps and focus areas
+- **C4** `C4-deslop.md` – Clean up AI-generated code by removing unnecessary complexity and verbosity
+- **C5** `C5-write-unit-tests.md` – Generate focused unit tests with proper coverage
+- **C6** `C6-run-all-tests-and-fix.md` – Execute the full suite, triage failures, and confirm fixes
 
-## Documentation & onboarding
+## D - Documentation (4 commands)
 
-- `add-documentation.md` – Capture comprehensive product or code documentation
-- `generate-api-docs.md` – Produce rich API documentation with schemas and examples
-- `onboard-new-developer.md` – Checklist-driven onboarding for new teammates
-- `setup-new-feature.md` – Plan requirements, branching, and architecture for new work
-- `visualize.md` – Generate visual diagrams and flowcharts from code or concepts
-- `diagrams.md` – Generate Mermaid diagrams (flowcharts, sequence, class, ER, state diagrams)
-- `overview.md` – Generate Mermaid diagrams for user journey and architecture flow
-- `roadmap.md` – Analyze codebase and generate visual feature roadmaps
-- `distill-to-volumes-md.md` – Transform conversations into organized markdown volumes
+- **D1** `D1-add-documentation.md` – Capture comprehensive product or code documentation
+- **D2** `D2-generate-api-docs.md` – Produce rich API documentation with schemas and examples
+- **D3** `D3-overview.md` – Generate Mermaid diagrams for user journey and architecture flow
+- **D4** `D4-visualize.md` – Generate visual diagrams and flowcharts from code or concepts
 
-## Security, accessibility & infrastructure
+## E - Eval (4 commands)
 
-- `security-audit.md` – Structured security checklist for code changes
-- `security-review.md` – Broader vulnerability and risk assessment workflow
-- `accessibility-audit.md` – Review for WCAG compliance issues
-- `database-migration.md` – Plan, create, and validate database migrations with rollbacks
-- `fix-git-issues.md` – Resolve merge conflicts and repository problems safely
+- **E1** `E1-debug.md` – Root cause analysis with step-by-step investigation
+- **E2** `E2-debug-issue.md` – Step-by-step debugging workflow for isolating defects
+- **E3** `E3-fix-compile-errors.md` – Diagnose and resolve compilation failures quickly
+- **E4** `E4-docker-logs.md` – Tail and monitor Docker container logs for debugging
 
-## Git workflow
+## G - Git (4 commands)
 
-- `git-commit.md` – Create well-structured commit messages with optional issue key linking
-- `git-push.md` – Push changes to remote with pre-push checks
-- `git-commit-analyze-resume-trajectory.md` – Commit, push, and analyze git history for context
+- **G1** `G1-git-commit.md` – Create well-structured commit messages with optional issue key linking
+- **G2** `G2-git-push.md` – Push changes to remote with pre-push checks
+- **G3** `G3-fix-git-issues.md` – Resolve merge conflicts and repository problems safely
+- **G4** `G4-git-commit-analyze-resume-trajectory.md` – Commit, push, and analyze git history for context
 
-## Architecture & analysis
+## I - Internet (5 commands)
 
-- `architect.md` – Transform project ideas into well-structured implementations
-- `custom-imp-check.md` – Identify custom implementations that could use mature solutions
-- `burn-down-roadmap.md` – Convert roadmap checkpoints into actionable todos
+- **I1** `I1-web-search.md` – Cite authoritative instructions and information from the web
+- **I2** `I2-research.md` – Conduct online technical research using web search and internet sources
+- **I3** `I3-summarize-and-search.md` – Summarize intent and find answers from authoritative online sources
+- **I4** `I4-latest-info.md` – Research latest information, updates, and current state online
+- **I5** `I5-battle-tested-solutions.md` – Research mature alternatives online for custom implementations
 
-## Research & context
+## M - Meta (3 commands)
 
-- `summarize-and-search.md` – Reframe questions and find authoritative answers
-- `research.md` – Efficient technical research and problem-solving
+- **M1** `M1-create-commands-from-examples.md` – Create new command entries based on example patterns
+- **M2** `M2-meta-interaction-trace.md` – Record interaction data for prompt engineering debugging
+- **M3** `M3-enhance-command-arsenal` – Enhance command arsenal (script)
 
-## Round-table command proposals
+## P - Project-Management (6 commands)
 
-The current `round-table.md` does comprehensive synthesis. Consider these focused variants:
+- **P1** `P1-clarify-task.md` – Break down ambiguous tasks into clear, actionable steps
+- **P2** `P2-setup-new-feature.md` – Plan requirements, branching, and architecture for new work
+- **P3** `P3-roadmap.md` – Analyze codebase and generate visual feature roadmaps
+- **P4** `P4-burn-down-roadmap.md` – Convert roadmap checkpoints into actionable todos
+- **P5** `P5-database-migration.md` – Plan, create, and validate database migrations with rollbacks
+- **P6** `P6-onboard-new-developer.md` – Checklist-driven onboarding for new teammates
 
-**Context Recovery** – "What changed? What's next? What's blocked?"
-**Decision Audit** – Track what was decided, why, and if it's still valid
-**Gap Analysis** – Compare current vs intended state, prioritize next actions
-**Relationship Map** – Visualize how files and concepts connect
-**Action Pipeline** – Convert discussion into executable todos
+## R - Research (5 commands)
 
-See full proposals in FINAL_ARSENAL.md.
+- **R1** `R1-research.md` – Conduct efficient offline technical research using codebase, index, and documentation
+- **R2** `R2-codebase-search.md` – Search and explore codebase systematically
+- **R3** `R3-custom-imp-check.md` – Identify custom implementations that could use mature solutions
+- **R4** `R4-battle-tested-solutions.md` – Identify custom implementations in codebase (offline analysis)
+- **R5** `R5-round-table.md` – Comprehensive synthesis of all contexts into unified debrief
+
+## S - Security (3 commands)
+
+- **S1** `S1-security-audit.md` – Structured security checklist for code changes
+- **S2** `S2-security-review.md` – Broader vulnerability and risk assessment workflow
+- **S3** `S3-accessibility-audit.md` – Review for WCAG compliance issues
+
+## T - Transcript (2 commands)
+
+- **T1** `T1-summary.md` – Project structure visualization and documentation
+- **T2** `T2-distill-to-volumes-md.md` – Transform conversations into organized markdown volumes
+
+## W - Workflow (5 commands)
+
+- **W1** `W1-create-pr.md` – Prepare a well-structured pull request with validation checklist
+- **W2** `W2-generate-pr-description.md` – Draft detailed pull-request descriptions automatically
+- **W3** `W3-address-github-pr-comments.md` – Process reviewer feedback and craft thoughtful responses
+- **W4** `W4-light-review-existing-diffs.md` – Quick pass to highlight risky diffs and cleanup items
+- **W5** `W5-create-spec-repo.md` – Create public-safe specification repository from private infrastructure
 
 ---
 
@@ -100,12 +116,14 @@ See full proposals in FINAL_ARSENAL.md.
 4. **Step/Requirement N** - Final step or consideration
 
 Focus on:
+
 - Specific area or concern 1
 - Specific area or concern 2
 - Specific area or concern 3
 - Any other relevant focus areas
 
 Consider both:
+
 - Perspective or approach 1
 - Perspective or approach 2
 
@@ -115,95 +133,25 @@ Format findings/output as [specify desired format] with [any specific requiremen
 
 ---
 
-# Final Command Arsenal
+# Complete Command Index (A1-Z9)
 
-Complete catalog of all commands organized by functional area.
+All 56 commands indexed alphabetically by category, numbered semantically within each category.
 
-## Code quality & maintenance
+**A - Architect (3):** A1-architect, A2-diagrams, A3-refactor-code
+**B - Behavior (3):** B1-behavior, B2-add-error-handling, B3-optimize-performance
+**C - Code-Quality (6):** C1-lint-fix, C2-lint-suite, C3-code-review, C4-deslop, C5-write-unit-tests, C6-run-all-tests-and-fix
+**D - Documentation (4):** D1-add-documentation, D2-generate-api-docs, D3-overview, D4-visualize
+**E - Eval (4):** E1-debug, E2-debug-issue, E3-fix-compile-errors, E4-docker-logs
+**G - Git (4):** G1-git-commit, G2-git-push, G3-fix-git-issues, G4-git-commit-analyze-resume-trajectory
+**I - Internet (5):** I1-web-search, I2-research, I3-summarize-and-search, I4-latest-info, I5-battle-tested-solutions
+**M - Meta (3):** M1-create-commands-from-examples, M2-meta-interaction-trace, M3-enhance-command-arsenal
+**P - Project-Management (6):** P1-clarify-task, P2-setup-new-feature, P3-roadmap, P4-burn-down-roadmap, P5-database-migration, P6-onboard-new-developer
+**R - Research (5):** R1-research, R2-codebase-search, R3-custom-imp-check, R4-battle-tested-solutions, R5-round-table
+**S - Security (3):** S1-security-audit, S2-security-review, S3-accessibility-audit
+**T - Transcript (2):** T1-summary, T2-distill-to-volumes-md
+**W - Workflow (5):** W1-create-pr, W2-generate-pr-description, W3-address-github-pr-comments, W4-light-review-existing-diffs, W5-create-spec-repo
 
-- `lint-fix.md` – Automatically analyze and fix linting issues in the current file
-- `lint-suite.md` – Run project linters, apply fixes, and ensure codebase meets formatting requirements
-- `refactor-code.md` – Improve code quality while maintaining functionality
-- `optimize-performance.md` – Analyze and optimize code performance
-- `add-error-handling.md` – Implement comprehensive error handling across the change set
-- `deslop.md` – Clean up AI-generated code by removing unnecessary complexity and verbosity
-- `clarify-task.md` – Break down ambiguous tasks into clear, actionable steps
-- `behavior.md` – Maintain high code quality and professional standards
-
-## Review & collaboration
-
-- `code-review.md` – Comprehensive review checklist with structured steps and focus areas
-- `address-github-pr-comments.md` – Process reviewer feedback and craft thoughtful responses
-- `light-review-existing-diffs.md` – Quick pass to highlight risky diffs and cleanup items
-- `create-pr.md` – Prepare a well-structured pull request with validation checklist
-- `generate-pr-description.md` – Draft detailed pull-request descriptions automatically
-- `round-table.md` – Comprehensive synthesis of all contexts into unified debrief
-
-## Testing & reliability
-
-- `run-all-tests-and-fix.md` – Execute the full suite, triage failures, and confirm fixes
-- `write-unit-tests.md` – Generate focused unit tests with proper coverage
-- `debug-issue.md` – Step-by-step debugging workflow for isolating defects
-- `fix-compile-errors.md` – Diagnose and resolve compilation failures quickly
-- `docker-logs.md` – Tail and monitor Docker container logs for debugging
-- `debug.md` – Root cause analysis with step-by-step investigation
-
-## Documentation & onboarding
-
-- `add-documentation.md` – Capture comprehensive product or code documentation
-- `generate-api-docs.md` – Produce rich API documentation with schemas and examples
-- `onboard-new-developer.md` – Checklist-driven onboarding for new teammates
-- `setup-new-feature.md` – Plan requirements, branching, and architecture for new work
-- `visualize.md` – Generate visual diagrams and flowcharts from code or concepts
-- `diagrams.md` – Generate Mermaid diagrams (flowcharts, sequence, class, ER, state diagrams)
-- `overview.md` – Generate Mermaid diagrams for user journey and architecture flow
-- `roadmap.md` – Analyze codebase and generate visual feature roadmaps
-- `distill-to-volumes-md.md` – Transform conversations into organized markdown volumes
-- `summary.md` – Project structure visualization and documentation
-
-## Security, accessibility & infrastructure
-
-- `security-audit.md` – Structured security checklist for code changes
-- `security-review.md` – Broader vulnerability and risk assessment workflow
-- `accessibility-audit.md` – Review for WCAG compliance issues
-- `database-migration.md` – Plan, create, and validate database migrations with rollbacks
-- `fix-git-issues.md` – Resolve merge conflicts and repository problems safely
-
-## Git workflow
-
-- `git-commit.md` – Create well-structured commit messages with optional issue key linking
-- `git-push.md` – Push changes to remote with pre-push checks
-- `git-commit-analyze-resume-trajectory.md` – Commit, push, and analyze git history for context
-
-## Architecture & analysis
-
-- `architect.md` – Transform project ideas into well-structured implementations
-- `custom-imp-check.md` – Identify custom implementations that could use mature solutions
-- `burn-down-roadmap.md` – Convert roadmap checkpoints into actionable todos
-
-## Research & context
-
-- `summarize-and-search.md` – Reframe questions and find authoritative answers
-- `research.md` – Efficient technical research and problem-solving
-
-## Command Status
-
-### Ready to Use (6)
-- `burn-down-roadmap.md` ✅
-- `custom-imp-check.md` ✅
-- `distill-to-volumes-md.md` ✅
-- `git-commit-analyze-resume-trajectory.md` ✅
-- `round-table.md` ✅
-- `summarize-and-search.md` ✅
-
-### Staged (35)
-All commands listed above that don't have ✅ are staged in `staged/` directory, ready to be moved to main commands directory.
-
-### To Create (4)
-- `generate-boilerplate.md` – Generate boilerplate code for common patterns
-- `generate-integration-tests.md` – Generate integration test scenarios
-- `test-coverage-analysis.md` – Analyze test coverage and identify gaps
-- `onboard-codebase.md` – Codebase exploration and explanation
+**Total: 56 commands** - All active and available for use.
 
 ---
 
@@ -243,7 +191,7 @@ All commands listed above that don't have ✅ are staged in `staged/` directory,
    - Category: Research
    - Focus: Question optimization, source evaluation, comprehensive answers
 
-7. **COMMAND_TEMPLATE.md** - Template & Standards
+7. **Command Template** - Template & Standards
    - Purpose: Standard structure for creating new commands
    - Category: Meta/Standards
    - Focus: Consistency, best practices
@@ -272,6 +220,7 @@ All commands listed above that don't have ✅ are staged in `staged/` directory,
 ## Coverage Gaps & Missing Opportunities
 
 Based on research from:
+
 - [AwesomeCursorPrompt](https://github.com/legendyxu/AwesomeCursorPrompt)
 - [cursor-commands](https://github.com/hamzafer/cursor-commands)
 - Community best practices
@@ -279,71 +228,81 @@ Based on research from:
 ### Missing Command Categories
 
 #### 1. **Code Generation & Refactoring**
-   - Generate boilerplate code
-   - Refactor code patterns
-   - Extract functions/components
-   - Convert between patterns (e.g., class to functional)
+
+- Generate boilerplate code
+- Refactor code patterns
+- Extract functions/components
+- Convert between patterns (e.g., class to functional)
 
 #### 2. **Testing & Quality Assurance**
-   - Generate test cases
-   - Write unit tests
-   - Integration test scaffolding
-   - Test coverage analysis
-   - Performance testing guidance
+
+- Generate test cases
+- Write unit tests
+- Integration test scaffolding
+- Test coverage analysis
+- Performance testing guidance
 
 #### 3. **Debugging & Troubleshooting**
-   - Analyze error messages
-   - Debug strategies
-   - Log analysis
-   - Performance profiling
-   - Memory leak detection
+
+- Analyze error messages
+- Debug strategies
+- Log analysis
+- Performance profiling
+- Memory leak detection
 
 #### 4. **API & Integration**
-   - API documentation generation
-   - API client generation
-   - Integration testing
-   - Webhook handling
-   - GraphQL schema generation
+
+- API documentation generation
+- API client generation
+- Integration testing
+- Webhook handling
+- GraphQL schema generation
 
 #### 5. **Security & Compliance**
-   - Security audit
-   - Vulnerability scanning
-   - Dependency security check
-   - Code security review
-   - Compliance checking
+
+- Security audit
+- Vulnerability scanning
+- Dependency security check
+- Code security review
+- Compliance checking
 
 #### 6. **Deployment & DevOps**
-   - Deployment checklist
-   - CI/CD pipeline review
-   - Infrastructure as code review
-   - Containerization guidance
-   - Environment configuration
+
+- Deployment checklist
+- CI/CD pipeline review
+- Infrastructure as code review
+- Containerization guidance
+- Environment configuration
 
 #### 7. **Code Review & Collaboration**
-   - PR review checklist
-   - Code style enforcement
-   - Review feedback generation
-   - Merge conflict resolution
-   - Branch strategy guidance
+
+- PR review checklist
+- Code style enforcement
+- Review feedback generation
+- Merge conflict resolution
+- Branch strategy guidance
 
 #### 8. **Performance Optimization**
-   - Performance bottleneck identification
-   - Optimization recommendations
-   - Caching strategies
-   - Database query optimization
-   - Frontend performance
+
+- Performance bottleneck identification
+- Optimization recommendations
+- Caching strategies
+- Database query optimization
+- Frontend performance
 
 #### 9. **Migration & Upgrades**
-   - Dependency upgrade analysis
-   - Framework migration planning
-   - Breaking change assessment
-   - Version compatibility check
+
+- Dependency upgrade analysis
+- Framework migration planning
+- Breaking change assessment
+- Version compatibility check
 
 #### 10. **Learning & Onboarding**
-   - Codebase walkthrough
-   - Architecture explanation
-   - Technology stack overview
-   - Onboarding documentation
+
+- Codebase walkthrough
+- Architecture explanation
+- Technology stack overview
+- Onboarding documentation
 
 ## Recommended New Commands
 
@@ -357,18 +316,18 @@ Based on research from:
 
 ### Medium Priority (Enhancement & Optimization)
 
-6. **performance-optimize.md** - Performance analysis and optimization
-7. **api-document.md** - API documentation generation
-8. **migration-plan.md** - Upgrade and migration strategies
-9. **deployment-checklist.md** - Deployment preparation and validation
-10. **onboard-codebase.md** - Codebase exploration and explanation
+1. **performance-optimize.md** - Performance analysis and optimization
+2. **api-document.md** - API documentation generation
+3. **migration-plan.md** - Upgrade and migration strategies
+4. **deployment-checklist.md** - Deployment preparation and validation
+5. **onboard-codebase.md** - Codebase exploration and explanation
 
 ### Low Priority (Nice to Have)
 
-11. **generate-boilerplate.md** - Code scaffolding
-12. **dependency-audit.md** - Dependency health check
-13. **ci-cd-review.md** - Pipeline analysis
-14. **accessibility-check.md** - A11y compliance review
+1. **generate-boilerplate.md** - Code scaffolding
+2. **dependency-audit.md** - Dependency health check
+3. **ci-cd-review.md** - Pipeline analysis
+4. **accessibility-check.md** - A11y compliance review
 
 ## Command Organization Structure
 
@@ -402,7 +361,7 @@ commands/
 ├── research/
 │   └── summarize-and-search.md
 └── meta/
-    └── COMMAND_TEMPLATE.md
+    └── (command template documentation in this README)
 ```
 
 ## Best Practices from Community
@@ -448,7 +407,7 @@ commands/
 
 ---
 
-*Last Updated: Based on current arsenal analysis and community research*
+*Last Updated: 2024-12-19*
 
 ---
 
@@ -460,34 +419,38 @@ commands/
 ## Directory Structure
 
 ### `research/` - Offline Codebase Research
+
 Commands that work with local codebase, index, documentation, and project files.
 
-- **`research.md`** - Conduct offline technical research using codebase, index, and documentation
-- **`round-table.md`** - Synthesize contexts from open files, recent edits, project structure
-- **`custom-imp-check.md`** - Analyze codebase to identify custom implementations
-- **`battle-tested-solutions.md`** - Identify custom implementations in codebase (offline analysis)
-- **`codebase-search.md`** - Search and explore codebase systematically
+- **R1** `R1-research.md` - Conduct offline technical research using codebase, index, and documentation
+- **R2** `R2-codebase-search.md` - Search and explore codebase systematically
+- **R3** `R3-custom-imp-check.md` - Analyze codebase to identify custom implementations
+- **R4** `R4-battle-tested-solutions.md` - Identify custom implementations in codebase (offline analysis)
+- **R5** `R5-round-table.md` - Synthesize contexts from open files, recent edits, project structure
 
-### `web/` - Online Web Research
+### `internet/` - Online Web Research
+
 Commands that use web search, internet sources, and latest online information.
 
-- **`web-search.md`** - Cite authoritative instructions from the web
-- **`research.md`** - Conduct online technical research using web search and internet sources
-- **`summarize-and-search.md`** - Summarize intent and find answers from authoritative online sources
-- **`battle-tested-solutions.md`** - Research mature alternatives online for custom implementations
-- **`latest-info.md`** - Research latest information, updates, and current state online
+- **I1** `I1-web-search.md` - Cite authoritative instructions from the web
+- **I2** `I2-research.md` - Conduct online technical research using web search and internet sources
+- **I3** `I3-summarize-and-search.md` - Summarize intent and find answers from authoritative online sources
+- **I4** `I4-latest-info.md` - Research latest information, updates, and current state online
+- **I5** `I5-battle-tested-solutions.md` - Research mature alternatives online for custom implementations
 
 ## Command Variants
 
 Some commands have both offline and online variants:
 
 ### Research
-- **Offline:** `research/research.md` - Uses codebase, index, documentation
-- **Online:** `web/research.md` - Uses web search, internet sources
+
+- **Offline:** `research/R1-research.md` - Uses codebase, index, documentation
+- **Online:** `internet/I2-research.md` - Uses web search, internet sources
 
 ### Battle-Tested Solutions
-- **Offline:** `research/battle-tested-solutions.md` - Identifies custom implementations in codebase
-- **Online:** `web/battle-tested-solutions.md` - Researches mature alternatives online
+
+- **Offline:** `research/R4-battle-tested-solutions.md` - Identifies custom implementations in codebase
+- **Online:** `internet/I5-battle-tested-solutions.md` - Researches mature alternatives online
 
 ## Principles
 
@@ -499,14 +462,16 @@ Some commands have both offline and online variants:
 
 ## Usage Guidelines
 
-### When to use `research/` commands:
+### When to use `research/` commands
+
 - Searching codebase
 - Analyzing project structure
 - Reviewing local documentation
 - Finding patterns in existing code
 - Understanding project conventions
 
-### When to use `web/` commands:
+### When to use `web/` commands
+
 - Finding latest information
 - Researching external tools/libraries
 - Looking up official documentation online
@@ -515,14 +480,11 @@ Some commands have both offline and online variants:
 
 ## Migration History
 
-- `summary/summarize-and-search.md` → `web/summarize-and-search.md` (moved - explicitly uses online sources)
-- `research/research.md` → Split into offline (`research/research.md`) and online (`web/research.md`) variants
-- `research/battle-tested-solutions.md` → Split into offline (`research/battle-tested-solutions.md`) and online (`web/battle-tested-solutions.md`) variants
-
-## New Commands Created
-
-- `research/codebase-search.md` - Systematic codebase search and exploration
-- `web/latest-info.md` - Research latest information and updates online
+- `summary/summarize-and-search.md` → `internet/I3-summarize-and-search.md` (moved - explicitly uses online sources)
+- `research/research.md` → Split into offline (`research/R1-research.md`) and online (`internet/I2-research.md`) variants
+- `research/battle-tested-solutions.md` → Split into offline (`research/R4-battle-tested-solutions.md`) and online (`internet/I5-battle-tested-solutions.md`) variants
+- All commands indexed with A1-Z9 system for easy reference
+- Directories renamed: `debug/` → `eval/`, `web/` → `internet/`, `summary/` → `transcript/`
 
 ---
 
@@ -597,7 +559,7 @@ All enhanced commands now include:
 
 All commands now:
 
-- Follow the `COMMAND_TEMPLATE.md` structure
+- Follow the command template structure (see Template section above)
 - Match the quality of best examples (`round-table.md`, `create-spec-repo.md`, `code-review.md`)
 - Are executable verbatim without interpretation
 - Include all required sections
