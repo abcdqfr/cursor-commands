@@ -1,0 +1,114 @@
+# web-search
+
+{% if tone >= 0.7 %}
+Cite authoritative instructions and information from the web to support technical decisions and implementations.
+{% elif tone >= 0.4 %}
+Find and cite web sources to help with technical decisions.
+{% else %}
+Look stuff up online and cite your sources.
+{% endif %}
+
+{% if strictness >= 0.7 %}
+**CRITICAL: You MUST use the `web_search` tool. No exceptions. If you don't search, you must explain why.**
+{% elif strictness >= 0.4 %}
+**IMPORTANT: Use the `web_search` tool. If you don't search, explain why.**
+{% else %}
+Use the `web_search` tool when needed.
+{% endif %}
+
+1. **Identify information need** - {% if verbosity >= 0.7 %}Determine what authoritative information or instructions are required{% elif verbosity >= 0.4 %}Figure out what you need{% else %}What do you need?{% endif %}
+2. **Structure search query** - {% if verbosity >= 0.7 %}Create comprehensive search queries that will find authoritative sources (documentation, official guides, best practices){% elif verbosity >= 0.4 %}Create good search queries{% else %}Make a search query{% endif %}
+3. **EXECUTE web search** - {% if strictness >= 0.7 %}**REQUIRED:** Use the `web_search` tool to actually search the web. You cannot skip this step.{% elif strictness >= 0.4 %}Use the `web_search` tool to search.{% else %}Search the web.{% endif %}
+4. **Show your work** - {% if verbosity >= 0.7 %}Document what you searched for, what you found, and what sources you evaluated{% elif verbosity >= 0.4 %}Document your searches and findings{% else %}Show what you found{% endif %}
+5. **Extract relevant information** - {% if verbosity >= 0.7 %}Gather specific instructions, code examples, or technical details from authoritative sources{% elif verbosity >= 0.4 %}Get the useful info{% else %}Get the info{% endif %}
+6. **Cite with URLs** - {% if strictness >= 0.7 %}**REQUIRED:** Every piece of information must include:{% elif strictness >= 0.4 %}Every piece of information should include:{% else %}Include:{% endif %}
+   - Source URL (the actual web page)
+   - Source name (documentation site, article title, etc.)
+   - What specific information came from that source
+7. **Explain empty hands** - {% if strictness >= 0.7 %}If you did NOT perform a web search, you MUST explicitly state:{% elif strictness >= 0.4 %}If you didn't search, explain:{% else %}If no search, say why:{% endif %}
+   - Why you didn't search (e.g., "Information already available in codebase")
+   - What alternative source you used instead
+   - Why that alternative is sufficient
+
+Focus on:
+{% if verbosity >= 0.7 %}
+- **Actually using web_search tool** - No lazy behavior, no skipping searches
+- **Source quality and authority** - Prioritize official documentation over community sources
+- **Complete citations with URLs** - Every claim must have a source URL
+- **Multi-source verification** - Cross-reference when possible
+- Relevant technical details and instructions
+- Code examples and implementation patterns when applicable
+- **Verification of information accuracy** - Check dates, maintenance status, conflicts
+{% elif verbosity >= 0.4 %}
+- Using web_search tool
+- Source quality and authority
+- Complete citations with URLs
+- Relevant technical details
+{% else %}
+- Use web_search tool
+- Cite sources
+- Get accurate info
+{% endif %}
+
+{% if detail_level >= 0.7 %}
+## Source Quality Requirements
+
+**MANDATORY: Always provide URLs**
+- Every source MUST include the full URL
+- Format: `[Source Name](URL)` or `Source Name: URL`
+- Never present information without citing where it came from
+
+**Priority Order (Most Authoritative First):**
+1. **Official Documentation** - `*.org`, `*.com` official project sites (e.g., `nixos.org`, `openwrt.org`)
+2. **Official GitHub Repositories** - `github.com/{project}/{repo}` with official status
+3. **Project Wikis** - Official project wikis and documentation sites
+4. **Established Community Resources** - Well-known community guides from recognized experts
+5. **Stack Overflow / Forums** - Only when official sources unavailable, clearly marked as community advice
+
+**Source Evaluation Criteria:**
+- ✅ Official project documentation (highest authority)
+- ✅ Recent and maintained (check dates, last updated)
+- ✅ Specific to the exact problem (not generic)
+- ✅ Includes code examples or step-by-step instructions
+- ⚠️ Community guides (cite as such, verify against official docs)
+- ❌ Avoid: Personal blogs without credentials, outdated tutorials, unverified claims
+{% endif %}
+
+{% if verbosity >= 0.7 %}
+Format web search results as:
+- **Search queries used** - What you actually searched for
+- **Sources found** - Complete list with URLs, authority level, and verification status
+- **Information extracted** - What you learned from each source with specific details
+- **Clear citations with URLs** - Every piece of information must cite its source URL
+- **Authority level** - Official Documentation / Official Repo / Community Guide / Forum Post
+- **Verification status** - Whether information is confirmed by multiple sources
+- Code examples or technical details with source attribution
+- **Conflicts noted** - When sources disagree, present all and note the conflict
+- **If no search performed** - Explicit explanation of why and what alternative was used
+{% elif verbosity >= 0.4 %}
+Format results with:
+- Search queries used
+- Sources with URLs
+- Information extracted
+- Citations
+{% else %}
+Format: queries, sources, citations.
+{% endif %}
+
+{% if verbosity >= 0.7 %}
+**Critical Rules:**
+1. **Never present information without URLs**
+2. **Always state authority level** (official vs community)
+3. **When multiple sources conflict, present all and note the conflict**
+4. **If information is incomplete, state what's missing**
+5. **Prioritize recent sources** (check dates when available)
+6. **Distinguish between "this is how to do it" (official) vs "this might work" (community)**
+{% endif %}
+
+{% if tone >= 0.7 %}
+Provide authoritative information from the web that supports sound technical decisions and implementations. **Show your work. Cite your sources. No lazy behavior.**
+{% elif tone >= 0.4 %}
+Provide good information from the web with proper citations.
+{% else %}
+Find good info and cite it.
+{% endif %}

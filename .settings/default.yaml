@@ -1,0 +1,45 @@
+# Default Settings for Dynamic Command System
+# Scale: 0.1 (minimal/casual) to 1.0 (exhaustive/formal)
+
+global:
+  tone: 0.6          # 0.1 = casual/friendly, 1.0 = formal/professional
+  verbosity: 0.7     # 0.1 = minimal/brief, 1.0 = exhaustive/detailed
+  detail_level: 0.7  # 0.1 = high-level, 1.0 = step-by-step
+  strictness: 0.7    # 0.1 = flexible/guidelines, 1.0 = must follow exactly
+  citation_style: 0.8 # 0.1 = minimal, 1.0 = comprehensive with URLs
+  example_density: 0.5 # 0.1 = no examples, 1.0 = extensive examples
+
+# Category overrides
+categories:
+  internet:
+    verbosity: 0.9      # Internet commands need exhaustive citations
+    citation_style: 1.0  # Always full URLs
+    strictness: 0.8      # Must use web_search tool
+
+  git:
+    strictness: 0.9      # Git commands must be followed exactly
+    verbosity: 0.6       # Git is straightforward
+
+  meta:
+    verbosity: 0.8       # Meta commands need detail
+    detail_level: 0.9    # Step-by-step for meta operations
+
+  research:
+    verbosity: 0.8
+    detail_level: 0.8
+
+  code-quality:
+    strictness: 0.8
+    verbosity: 0.7
+
+# Command-specific overrides
+commands:
+  I1-web-search:
+    verbosity: 1.0
+    citation_style: 1.0
+    strictness: 0.9
+
+  M5-arsenal-separation-of-concerns:
+    verbosity: 1.0
+    detail_level: 1.0
+    example_density: 0.8

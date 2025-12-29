@@ -1,30 +1,27 @@
-# Create PR
+# create-pr
 
-## Overview
+Create a well-structured pull request with proper description, labels, and reviewers.
 
-Create a well-structured pull request with proper description, labels, and
-reviewers.
+1. **Prepare branch** - Ensure all changes are committed, push branch to remote, and verify branch is up to date with main
+2. **Write PR description** - Summarize changes clearly, include context and motivation, list any breaking changes, and add screenshots if UI changes
+3. **Set up PR** - Create PR with descriptive title, add appropriate labels, assign reviewers, and link related issues
 
-## Steps
+Focus on:
+- Branch preparation and synchronization
+- Clear PR description with context
+- Breaking changes documentation
+- Appropriate labels and reviewers
+- Issue linking
 
-1. **Prepare branch**
-    - Ensure all changes are committed
-    - Push branch to remote
-    - Verify branch is up to date with main
-2. **Write PR description**
-    - Summarize changes clearly
-    - Include context and motivation
-    - List any breaking changes
-    - Add screenshots if UI changes
-3. **Set up PR**
-    - Create PR with descriptive title
-    - Add appropriate labels
-    - Assign reviewers
-    - Link related issues
+Consider both:
+- PR content (description, context, motivation)
+- PR metadata (labels, reviewers, issues)
 
-## PR Template
+Format the output as:
+- PR title suggestion
+- PR description template
+- Label recommendations
+- Reviewer suggestions
+- Issue links
 
-- [ ] Feature A
-- [ ] Bug fix B
-- [ ] Unit tests pass
-- [ ] Manual testing completed
+Create well-structured pull request with comprehensive description and proper metadata.
