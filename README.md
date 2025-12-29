@@ -145,7 +145,7 @@ All commands indexed alphabetically by category, numbered semantically within ea
 **G - Git:** G1-git-commit, G2-git-push, G3-fix-git-issues, G4-git-commit-analyze-resume-trajectory
 **I - Internet:** I1-web-search, I2-research, I3-summarize-and-search, I4-latest-info, I5-battle-tested-solutions
 **M - Meta:** M1-create-commands-from-examples, M2-meta-interaction-trace, M4-compare-with-existing-solutions, M5-arsenal-separation-of-concerns, M6-dynamic-command-system, M7-dynamic-system-ui-design, M8-identify-generative-content
-**P - Project-Management:** P1-clarify-task, P2-setup-new-feature, P3-roadmap-pp, P4-burn-down-roadmap, P5-database-migration, P6-onboard-new-developer
+**P - Project-Management:** P1-clarify-task, P2-setup-new-feature, P3-roadmap, P3-roadmap-pp, P4-burn-down-roadmap, P5-database-migration, P6-onboard-new-developer
 **R - Research:** R1-research, R2-codebase-search, R3-custom-imp-check, R4-battle-tested-solutions, R5-round-table, R6-research-annotation-tools
 **S - Security:** S1-security-audit, S2-security-review, S3-accessibility-audit
 **T - Transcript:** T1-summary, T2-distill-to-volumes-md
