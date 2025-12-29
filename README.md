@@ -29,28 +29,28 @@ Type `/` in Cursor to access any command instantly. All commands are indexed A1-
 - **C5** `C5-write-unit-tests.md` – Generate focused unit tests with proper coverage
 - **C6** `C6-run-all-tests-and-fix.md` – Execute the full suite, triage failures, and confirm fixes
 
-## D - Documentation (4 commands)
+## D - Documentation
 
 - **D1** `D1-add-documentation.md` – Capture comprehensive product or code documentation
 - **D2** `D2-generate-api-docs.md` – Produce rich API documentation with schemas and examples
 - **D3** `D3-overview.md` – Generate Mermaid diagrams for user journey and architecture flow
 - **D4** `D4-visualize.md` – Generate visual diagrams and flowcharts from code or concepts
 
-## E - Eval (4 commands)
+## E - Eval
 
 - **E1** `E1-debug.md` – Root cause analysis with step-by-step investigation
 - **E2** `E2-debug-issue.md` – Step-by-step debugging workflow for isolating defects
 - **E3** `E3-fix-compile-errors.md` – Diagnose and resolve compilation failures quickly
 - **E4** `E4-docker-logs.md` – Tail and monitor Docker container logs for debugging
 
-## G - Git (4 commands)
+## G - Git
 
 - **G1** `G1-git-commit.md` – Create well-structured commit messages with optional issue key linking
 - **G2** `G2-git-push.md` – Push changes to remote with pre-push checks
 - **G3** `G3-fix-git-issues.md` – Resolve merge conflicts and repository problems safely
 - **G4** `G4-git-commit-analyze-resume-trajectory.md` – Commit, push, and analyze git history for context
 
-## I - Internet (5 commands)
+## I - Internet
 
 - **I1** `I1-web-search.md` – Cite authoritative instructions and information from the web
 - **I2** `I2-research.md` – Conduct online technical research using web search and internet sources
@@ -58,13 +58,13 @@ Type `/` in Cursor to access any command instantly. All commands are indexed A1-
 - **I4** `I4-latest-info.md` – Research latest information, updates, and current state online
 - **I5** `I5-battle-tested-solutions.md` – Research mature alternatives online for custom implementations
 
-## M - Meta (3 commands)
+## M - Meta
 
 - **M1** `M1-create-commands-from-examples.md` – Create new command entries based on example patterns
 - **M2** `M2-meta-interaction-trace.md` – Record interaction data for prompt engineering debugging
 - **M3** `M3-enhance-command-arsenal` – Enhance command arsenal (script)
 
-## P - Project-Management (6 commands)
+## P - Project-Management
 
 - **P1** `P1-clarify-task.md` – Break down ambiguous tasks into clear, actionable steps
 - **P2** `P2-setup-new-feature.md` – Plan requirements, branching, and architecture for new work
@@ -73,7 +73,7 @@ Type `/` in Cursor to access any command instantly. All commands are indexed A1-
 - **P5** `P5-database-migration.md` – Plan, create, and validate database migrations with rollbacks
 - **P6** `P6-onboard-new-developer.md` – Checklist-driven onboarding for new teammates
 
-## R - Research (5 commands)
+## R - Research
 
 - **R1** `R1-research.md` – Conduct efficient offline technical research using codebase, index, and documentation
 - **R2** `R2-codebase-search.md` – Search and explore codebase systematically
@@ -81,55 +81,24 @@ Type `/` in Cursor to access any command instantly. All commands are indexed A1-
 - **R4** `R4-battle-tested-solutions.md` – Identify custom implementations in codebase (offline analysis)
 - **R5** `R5-round-table.md` – Comprehensive synthesis of all contexts into unified debrief
 
-## S - Security (3 commands)
+## S - Security
 
 - **S1** `S1-security-audit.md` – Structured security checklist for code changes
 - **S2** `S2-security-review.md` – Broader vulnerability and risk assessment workflow
 - **S3** `S3-accessibility-audit.md` – Review for WCAG compliance issues
 
-## T - Transcript (2 commands)
+## T - Transcript
 
 - **T1** `T1-summary.md` – Project structure visualization and documentation
 - **T2** `T2-distill-to-volumes-md.md` – Transform conversations into organized markdown volumes
 
-## W - Workflow (5 commands)
+## W - Workflow
 
 - **W1** `W1-create-pr.md` – Prepare a well-structured pull request with validation checklist
 - **W2** `W2-generate-pr-description.md` – Draft detailed pull-request descriptions automatically
 - **W3** `W3-address-github-pr-comments.md` – Process reviewer feedback and craft thoughtful responses
 - **W4** `W4-light-review-existing-diffs.md` – Quick pass to highlight risky diffs and cleanup items
 - **W5** `W5-create-spec-repo.md` – Create public-safe specification repository from private infrastructure
-
----
-
-# command-name
-
-[Brief one-line description of what this command does]
-
-[Optional: Additional context or background information about when/why to use this command]
-
-[Main instructions - detailed steps or guidance]
-
-1. **Step/Requirement 1** - What needs to be done first?
-2. **Step/Requirement 2** - What comes next?
-3. **Step/Requirement 3** - Continue with clear, actionable steps...
-4. **Step/Requirement N** - Final step or consideration
-
-Focus on:
-
-- Specific area or concern 1
-- Specific area or concern 2
-- Specific area or concern 3
-- Any other relevant focus areas
-
-Consider both:
-
-- Perspective or approach 1
-- Perspective or approach 2
-
-[Optional: Additional considerations, constraints, or special cases]
-
-Format findings/output as [specify desired format] with [any specific requirements].
 
 ---
 
@@ -145,7 +114,7 @@ All commands indexed alphabetically by category, numbered semantically within ea
 **G - Git:** G1-git-commit, G2-git-push, G3-fix-git-issues, G4-git-commit-analyze-resume-trajectory
 **I - Internet:** I1-web-search, I2-research, I3-summarize-and-search, I4-latest-info, I5-battle-tested-solutions
 **M - Meta:** M1-create-commands-from-examples, M2-meta-interaction-trace, M4-compare-with-existing-solutions, M5-arsenal-separation-of-concerns, M6-dynamic-command-system, M7-dynamic-system-ui-design, M8-identify-generative-content
-**P - Project-Management:** P1-clarify-task, P2-setup-new-feature, P3-roadmap, P3-roadmap-pp, P4-burn-down-roadmap, P5-database-migration, P6-onboard-new-developer
+**P - Project-Management:** P1-clarify-task, P2-setup-new-feature, P3-roadmap-pp, P4-burn-down-roadmap, P5-database-migration, P6-onboard-new-developer
 **R - Research:** R1-research, R2-codebase-search, R3-custom-imp-check, R4-battle-tested-solutions, R5-round-table, R6-research-annotation-tools
 **S - Security:** S1-security-audit, S2-security-review, S3-accessibility-audit
 **T - Transcript:** T1-summary, T2-distill-to-volumes-md
