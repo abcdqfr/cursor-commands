@@ -1,6 +1,7 @@
 # Key Concepts
 
   *HILF - Human-In-The-Loop Feedback*
+  
   *CIHF - Continuous Integration with Human Feedback*
 
   Chain commands in sequence or in series!
